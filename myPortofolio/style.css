@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+a {
+    font-size: 2rem;
+    font-weight: 200;
+    color: black;
+    text-decoration: none;
+}
+a :visited {
+    color: bisque;
+}
+
+a:hover {
+    color: white;
+    background-color: slategray;
+    padding: 2px;
+    border-radius: 0.5rem;
+    
+}
+.qr-img {
+    margin-top: 10px;
+}
+.qr {
+    margin-top: 20px;
+}
+.app {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 2px black solid;
+    background-color: bisque;
+    border-radius: 1rem;
+    color: brown; 
+}
+body {
+min-height: 100vh;
+
+/* background: #72728d; */
+background:linear-gradient(135deg, #72728d , rgb(205, 86, 86)) ;
+color: bisque;
+font-size: 1rem;
+}
+#calculator-img {
+    /* width: fit-content; */
+    width : 300px ;
+    
+}
+.footer-container {
+    margin-top: 15px;
+    background-color: bisque;
+    width: fit-content;
+}
+header {
+    background-color: rgb(50, 48, 44);
+    border-bottom: 2px bisque;
+    font-size: 1.5;
+}
+.header_h1 {
+    display: flex;
+    justify-content: center;
+    padding: 3px 0px;
+}
+
+
+section {
+    margin-top: 5rem;
+    margin-left: 300px;
+    color: bisque;
+    display: grid;
+    /* grid-template-columns: repeat(2, 300px); */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 4rem;
+    margin-bottom: 5rem;
+    }
+
+.to-do-list .img-container img {
+    width: 250px;
+}
+.to-do-counter {
+    display: flex;
+    justify-content: center;
+}
+    
+
+
+    
+
+
+
+

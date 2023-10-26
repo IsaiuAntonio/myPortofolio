@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="qrcode.css">
+    <link rel="stylesheet" href="spinner.css" />
+    <link rel="stylesheet" href="header.css" />
+
+</head>
+<body>
+    <h1 class="header_h1">QR Code Generator</h1>
+    <header>
+        <a href="/index.html">Back</a>
+        <a href="/calculator.html">Calculator app</a>
+        <a href="/counter-app.html">Counter app</a>
+        <a href="to-do-list.html">To do list</a>
+    </header>
+<article>
+    <h2>You can add any URL and get a functional QR for it</h2>
+    <section class="container">
+        <input type="text" placeholder="Enter URL" class="qr-input"> 
+        <button onclick="generateQR()">Generate!</button>
+        <div class="qr-box">
+            <img src="" class="qr-image">
+        </div>
+        <div class="spinner"></div>
+    </section>
+</article>
+    <script src="to-do-list.js"></script>
+    <script src="qrcode.js"></script>
+    <script src="spinner.js"></script>
+</body>
+</html>

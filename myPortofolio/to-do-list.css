@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: Helvetica;
+    box-sizing: border-box; 
+    
+}
+body {
+    background:linear-gradient(135deg, #72728d , rgb(205, 86, 86)) ;
+    height: 100vh;
+}
+div > div > p {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 95%;
+    padding: 14px 5px;
+    border: 2px solid black;
+    background-color: rgb(179, 153, 122);
+    text-decoration-thickness: 3px;
+}
+.tutorial {
+    margin-top: 20px;
+    text-align: center;
+}
+.tutorial > h2 {
+    margin: 5px;
+}
+main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(50, 48, 44);
+    color: bisque;
+    width: 100%;
+}
+header {
+    background-color: rgb(50, 48, 44);
+    width: 100%;
+    height: 50px;
+}
+
+.container {
+    /* display: grid; */
+    /* grid-template-columns: 5fr 0fr;
+    grid-template-rows: 5fr 0fr ; */
+    /* grid-template-areas: 
+    "in in in  bt"
+    "in mn mn  mn"
+    "in mn mn  mn"
+    "in mn mn  mn"
+    "in  mn mn  mn"
+    ; */
+    width: 400px;
+    min-height: 350px;
+    max-height: max-content;
+    background-color: bisque;
+    border: 2px solid black;
+    
+}
+.delete-btn {
+    height: 80%;
+    width: 20px;
+    border-radius: 50%;
+    float: right;
+    padding-right: 5px;
+}
+.input {
+    font-family: Helvetica;
+    padding-left: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 85%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.add-button {
+    
+    margin-left: 5px;
+    margin-top: 12px;
+    width: 27px;
+    height: 27px;
+    border: 2px solid black;
+}
+p {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    background-color: bisque;
+    border-radius: 5px;
+    user-select: none;
+    margin-bottom: 10px;
+}
+.container-bottom {
+    margin-top: 10px;
+    margin-left: 5px;
+}

@@ -1,0 +1,35 @@
+.header_h1 {
+    display: block;
+    text-align: center;
+    background-color: rgb(50, 48, 44);
+    padding-top: 3px;
+    color: bisque;
+    width: 100%;
+    margin: 0px 0px;
+}
+header {
+    background-color: rgb(50, 48, 44);
+    padding-top: 10px;
+    color: bisque;
+    width: 100%;
+    height: 50px;
+}
+a {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a :visited {
+    color: bisque;
+}
+
+a:hover {
+    color: white;
+    background-color: slategray;
+    padding: 2px;
+    border-radius: 0.5rem;
+    
+}
